@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.bg-blue {
+  background: blue;
+}
+
+.bg-red {
+  background: red;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.parent-box {
+  width: 1000px;
+  height: 1000px;
+}
+
+.asd {
+  background: #272727;
+}
+
+.asd:hover {
+  background: yellow;
+}
+
+.styled-image {
+  filter: grayscale(100%);
+  transition: all 0.2s ease-in-out;
+}
+
+.styled-image:hover {
+  filter: grayscale(0);
+  transition: all 0.2s ease-in-out;
+}
